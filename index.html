@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+        <title>Document</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+            <li class="logo"><span class="fas fa-music logo-icon"></span><h2>Music Player </h2></li>
+            <!-- <li class="logo-icon"></li> -->
+            <li class="btn"><span class="fas fa-bars "></span></li>
+            <li class="search-icon">
+                <input type="search" placeholder="Search">
+                <label class="icon">
+                <span class="fas fa-search"></span>
+                </label>
+            </li>
+            <div class="items">
+            <li><a href="#"class="fav-logo">Favorites <span class="fas fa-star fav-logo"></span></a></li>
+            <li><a href="#"class="notification-logo">Notifications <span class="fas fa-bell notification-logo"></span></a></li>
+            <li><a href="#" class="user-logo">Login <span class="far fa-user user-logo"></span></a></li>
+            </div>
+            </ul>
+        </nav>
+        <div>
+            <div class="content">
+                
+                <div class="slider">
+                    <img class="box" src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60938cb0fd18f77ca6ff5dcb/BANNER_344111561369293.png" width="300" height="150">
+                    <img class="box" src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6098e50178095a40f20ee0a1/BANNER_2292233452054651.png" width="300" height="150">
+                    <img class="box" src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/609e23d787bbdf3cb72b115e/BANNER_135043518466108.png" width="300" height="150">
+                </div>
+
+                <div class="list">
+                    <div class="list_name_artist">
+                        <h2>Artist</h2>
+                    </div>
+                    <div class="list_1 artist">
+                        <div class="artist_1">
+                            <img id="list_pic_1" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/602cb96b14d31c5d06c50076/COLLECTION_407106214151334.png">
+                            <h3>Ed Sheeran</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic_1" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/artists/profile/5a8e967e2951624319d6bf25.png">
+                            <h3>Dj Snake</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic_1" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/artists/profile/5a8e708a2951624319d6ba7f.png">
+                            <h3>The Weeknd</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic_1" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/artists/profile/5a8e73342951624319d6bab9.png">
+                            <h3>Selena Gomez</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic_1" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/artists/profile/5acb0f622951624f1482c59c.png">
+                            <h3>Post Malone</h3>
+                        </div>
+                    </div>
+                    
+
+
+                    <div class="list_name_mood">
+                        <h2>Mood</h2>
+                    </div>
+                    <div class="list_1">
+                        <div>
+                            <img id="list_pic_1" src="https://i.pinimg.com/474x/e0/20/3e/e0203efac2aaabb5ed82cea55bac4563.jpg">
+                            <h3>On my way</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic_1" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1616133174/srch_universalmusic_00602435848983-USUM72102636.jpg">
+                            <h3>Peaches</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic_1" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1561092460/srch_universalmusic_00602508009624-USUM71911283.jpg">
+                            <h3>Señorita</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic_1" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1568955083/srch_universalmusic_00602508101816-USUM71913350.jpg">
+                            <h3>Memories</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic_1" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/update/1599607204/srch_universalmusic_00602557056273-QMZSY1600015.jpg">
+                            <h3>Let Me Love You</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic_1" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E00076229396.jpg">
+                            <h3>Faded</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="list_name">
+                    </div>
+                    <div class="list_1">
+                        
+                        <div>
+                            <img id="list_pic_event" src="https://topnotchtalent.com/wp-content/uploads/holiday-party-entertainment-top-notch-talent.jpg">
+                            
+                        </div>
+                        <div>
+                            <img id="list_pic_event" src="https://www.recordingconnection.com/blog/wp-content/uploads/2019/05/recording-connection-make-electronic-music-for-a-living.jpg">
+                            
+                        </div>
+                        <div>
+                            <img id="list_pic_event" src="https://weddingaffair.co.in/wp-content/uploads/2019/11/deature-image-road-trip-wedding-affair-sailuntires.png">
+                            
+                        </div>
+                    </div>
+
+
+                    <div class="Playlist_name">
+                        <h2>International Top Hits</h2>
+                    </div>
+                    <div class="list_1">
+                        <div id="play-icon-hover">
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0008969041G.jpg">
+                            <span ><i class="fas fa-play"></i></span>
+                            <h3>On my way</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1616133174/srch_universalmusic_00602435848983-USUM72102636.jpg">
+                            <h3>Peaches</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1561092460/srch_universalmusic_00602508009624-USUM71911283.jpg">
+                            <h3>Señorita</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1568955083/srch_universalmusic_00602508101816-USUM71913350.jpg">
+                            <h3>Memories</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/update/1599607204/srch_universalmusic_00602557056273-QMZSY1600015.jpg">
+                            <h3>Let Me Love You</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E00076229396.jpg">
+                            <h3>Faded</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0008982849D.jpg">
+                            <h3>Sugar&Brownies</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1485874711/srch_universalmusic_00602557443325-USUM71700626.jpg">
+                            <h3>Believer</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="Playlist_name_2">
+                        <h2>Favorites</h2>
+                    </div>
+                    <div class="list_1">
+                        <div class="play-pause">
+                            <img id="list_pic" src="https://wallpapercave.com/wp/wp4606692.jpg">
+                            <h3>On my way</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0009053285R.jpg">
+                            <h3>Peaches</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0007715972X.jpg">
+                            <h3>Señorita</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0008561167Y.jpg">
+                            <h3>Memories</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1530432179/srch_universalmusic_00602567879152-USCM51800207.jpg">
+                            <h3>Let Me Love You</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1519274953/srch_universalmusic_00602567410959-USUM71700626.jpg">
+                            <h3>Faded</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1484666964/srch_universalmusic_00602557122145-USUM71607007.jpg">
+                            <h3>Sugar&Brownies</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1540281800/srch_universalmusic_00602577149658-USUM71814888.jpg">
+                            <h3>Believer</h3>
+                        </div>
+                    </div>
+
+                    <div class="list_name">
+                    </div>
+                    <div class="list_1">
+                        <div class="play-pause">
+                            <img  id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1534496044/srch_universalmusic_00602567973393-USUG11801651.jpg">
+                            <h3>On my way</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1551977748/srch_universalmusic_00602577587245-USUG11900610.jpg">
+                            <h3>Peaches</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(jpg)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/update/1570566300006/srch_sonymusic_A10328E00091624837.jpg">
+                            <h3>Señorita</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1551199320/srch_universalmusic_00602577504853-USUM71902650.jpg">
+                            <h3>Memories</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/update/1547825952/srch_universalmusic_00602577426520-INUM71900001.jpg">
+                            <h3>Let Me Love You</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0009080061D.jpg">
+                            <h3>Faded</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_ingrooves/music/srch_ingrooves_192641286742_GBK3W1900981.jpg">
+                            <h3>Sugar&Brownies</h3>
+                        </div>
+                        <div>
+                            <img id="list_pic" src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1567746259/srch_universalmusic_00602508265761-USUM71915730.jpg">
+                            <h3>Believer</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="music-play">
+                    <div class="play-image">
+                        <img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1567746266/srch_universalmusic_00602508265761-USUM71917234.jpg">
+                        <div class="song-name">
+                            <h5>Circles</h5>
+                            <p>Post Malone</p>
+                        </div>
+                    </div>
+                    <div class="play-control">
+                        <div class="control">
+                            
+                            <div class="play-icon">
+                                <i class="fa fa-step-backward"></i>
+                                <i class="fa fa-play"></i>
+                                <i class="fa fa-step-forward"></i>
+                            </div>
+                        </div>
+                        <div class="music-progress">
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+      <script>
+        $('nav ul li.btn span').click(function(){
+          $('nav ul div.items').toggleClass("show");
+          $('nav ul li.btn span').toggleClass("show");
+        });
+      </script>
+    </body>
+</html>
