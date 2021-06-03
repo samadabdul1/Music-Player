@@ -197,53 +197,6 @@ nav ul li.btn span.show:before{
   color: #202020;
 }
 
-.content{
-    width: 100%;
-    height:80%;
-    display: flex;
-    flex-direction: column;
-    /* border:20px solid white; */
-}
-
-.slider{
-    width: 100%;
-    height:200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: row;
-    /* border:20px solid white; */
-}
-.box{
-    width: 30%;
-    height: 160px;
-    margin:20px;
-    border-radius: 10px;
-    transition: 0.6s ease-out;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-}
-
-.box:hover{
-    transform:translateY(15px);
-}
-
-.box:hover:before{
-    opacity:1;
-}
-.box:hover:before{
-    content:'';
-    position:absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background:linear-gradient(to top,#000,transparent) ;
-    z-index:2;
-    transition:0.5s;
-    opacity: 0;
-}
-
 
 @media screen and (max-width:1200px) {
     .box{
@@ -406,6 +359,12 @@ nav ul li.btn span.show:before{
 }
 
 
+
+.song_component{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
 
 
 
@@ -801,3 +760,62 @@ left:100%; }
   
 }
 
+
+
+/* image carousel */
+
+
+.slider-box {
+  width     : 90%;
+  max-height: 90vh;
+  position  : relative;
+  overflow  : hidden;
+  margin    : 30px auto;
+}
+
+#slider {
+  width     : 100%;
+  display   : inline-flex;
+  transition: 0.7s;
+}
+
+#slider img {
+  width: 100%;
+  height: 564px;
+}
+/*at width:1290   height: 375px; */
+
+
+@media screen and (max-width:1290px) {
+  
+  #slider img {
+    width: 100%;
+    height: 375px;
+  }
+}
+@media screen and (max-width:800px){
+  #slider img {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+.indicators {
+  position : absolute;
+  left     : 50%;
+  bottom   : 20px;
+  transform: translateX(-50%);
+}
+
+.indicators span {
+  display      : inline-block;
+  width        : 15px;
+  height       : 15px;
+  border-radius: 50%;
+  background   : rgba(255, 255, 255, 0.5);
+  cursor       : pointer;
+}
+
+.active {
+  background: #ffff !important;
+}
